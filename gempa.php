@@ -3,7 +3,11 @@
 <?php
 // Data Gempa Terkini Ddi Indonesia
 // sugic0d3
-// 
+// Tut0rial run lewat xampp php di cmd
+//-Download Cmdnya 
+//- Taruh filenya di sistem c > xampp>php>pastekan di folder "PHP"
+//- Sesudah itu jalankan, di cmd. buka CMD > lalu panggil "cd C:\xampp\php\" Setelah itu Ketik Php (namafile.php)
+
 function main(){
 	$url = "http://data.bmkg.go.id/autogempa.xml";
 	$get = file_get_contents($url, False);
